@@ -1,0 +1,20 @@
+.cardContainer{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.cardContainer p{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cardContainer:hover{
+    box-shadow: inset 0 0 0 1000px rgba(232, 44, 44, 0.534);
+
+}
