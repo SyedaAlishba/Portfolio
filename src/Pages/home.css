@@ -1,8 +1,10 @@
 .mainContainer {
+  
 }
 .mainHeader {
   width: 100%;
-  padding:30px 0px;
+  height:30px;
+  padding:20px 0px;
   background-color: #fa3c33;
 
   display: flex;
@@ -36,6 +38,8 @@
   align-items: center;
   justify-content: center;
   background-color: #f75a56;
+  position: sticky;
+
 }
 .forIntro {
   color: white;
@@ -48,7 +52,7 @@
 }
 .arrowDownIcon {
   color: white;
-  margin-top: 180px;
+  margin-top: 100px;
 }
 .mainProjectArea {
   padding: 80px 120px ;
@@ -59,3 +63,38 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
+.downloadCVButton {
+  margin-top: 60px;
+  left: 50%;
+
+  background-color: #fa3c33;
+  
+  color: #fff;
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+  animation: pulse 1s infinite;
+}
+
+.downloadCVButton:hover {
+  background-color: #f75a56;
+  
+ 
+  box-shadow: 0 0 10px rgba(218, 208, 208, 0.2);
+  animation: none; /* Disable pulse animation on hover */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+

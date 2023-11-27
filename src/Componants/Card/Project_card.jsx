@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import "./cardStyle.css";
+import { Link } from "react-router-dom";
 
 const Project_card = (props) => {
 
   const[flag,setFlag] =useState(false)
   return (
+    <Link style={{textDecoration:"none"}} target="_blank" rel="noopener noreferrer" to={props.link}>
     <div
      onMouseOver={()=>setFlag(true)}
      onMouseLeave={()=>setFlag(false)}
@@ -22,6 +24,7 @@ const Project_card = (props) => {
         {props.title}
       </p>
     </div>
+    </Link>
   );
 };
 
