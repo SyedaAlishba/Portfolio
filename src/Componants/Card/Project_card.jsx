@@ -11,7 +11,7 @@ const Project_card = (props) => {
      onMouseOver={()=>setFlag(true)}
      onMouseLeave={()=>setFlag(false)}
 
-      style={{ backgroundImage: `url(${props.backgroundImage})` }}
+      style={{ backgroundImage: `url(${props.backgroundImage})` , backgroundSize:"100% 90%", backgroundRepeat:"no-repeat"}}
       className="cardContainer"
     >
       <p
