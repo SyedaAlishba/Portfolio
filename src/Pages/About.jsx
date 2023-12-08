@@ -3,14 +3,12 @@ import Header from "../Componants/HEADER/Header";
 import "./about.css";
 
 const About = () => {
-
-
   return (
     <div>
       <Header />
       <div
-       className="pageTitle" 
-      //  style={{ marginTop: "30px", textAlign: "center", marginTop: "50px" }}
+        className="pageTitle"
+        //  style={{ marginTop: "30px", textAlign: "center", marginTop: "50px" }}
       >
         <h1 className="about">About</h1>
         <p
@@ -22,21 +20,21 @@ const About = () => {
           // }}
           className="textPara"
         >
-          Hi! I am Zubaria: zoo-baa-riya, not zubairia or zubaira! I did my BS
-          in Design & Animation from FJWU and active in the Design Industry for
-          4yrs by now. I seek design challenges and yearn for innovation &
-          novelty for producing quality<br/> artwork.
+          Hello, I'm Alishba, a dedicated front-end developer with a flair for
+          blending design and technology. I did my BS in Software Engineering
+          and have been actively involved in the software house for the past 2
+          years.  Infusing my work with a unique
+          perspective.
+          <br /> My passion lies in seamlessly merging aesthetics with
+          user-friendly interfaces, transforming concepts into captivating
+          narratives through code. Beyond the screen, I draw inspiration from
+          the organic beauty of nature, the dynamic world of technology, and the
+          ever-evolving realm of art.
         </p>
         <p className="textPara1">
-        Designing is one of my key childhood passions. At a very initial stage, I had even used MS
-          PowerPoint for designing. A lot of people mock me on the fact, but I
-          have always believed that innovation & creativity are the keys to
-          design and tools only serve as aids though tools have never been a
-          show-stopper for me; My first website was up by 7th Grade. Apart from
-          solitary work, I have been into various drawing and painting
-          competitions for learning, connectivity and challenge. Doodling at
-          minimum in my leisure hours, Design for me is part and parcel of life
-          and not just a profession!
+           I invite you to join me in exploring the intersection of
+          creativity and technology, where every project is an opportunity to
+          craft meaningful and impactful digital stories.
         </p>
       </div>
     </div>

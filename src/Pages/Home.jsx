@@ -51,8 +51,7 @@ const Home = () => {
           <div className="forIntro">
             <p>Hi, I'm Alishba!</p>
             <p className="description">
-              Bridging the gap between aesthetics and usability. - UX/UI
-              Designer
+            "Fusing aesthetics seamlessly with usability in the user interface - Front-end Developer at your service"
             </p>
           </div>
 
