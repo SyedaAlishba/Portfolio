@@ -6,7 +6,7 @@ import img1 from "../assets/portfolio.png";
 import img2 from "../assets/Dashboard.jpg";
 import img3 from "../assets/FloorPlan.png";
 
-import alishbaCV from "../../public/AlishbaCV.pdf";
+import alishbaCV from "../../public/Alishba_Cv_Portfolio.pdf";
 import BackToTopBtn from "../Componants/BackToTopBtn/BackToTopBtn";
 
 const Home = () => {
@@ -35,7 +35,7 @@ const Home = () => {
 
   const downloadCV = () => {
     const link = document.createElement("a");
-    link.download = "AlishbaCV.pdf";
+    link.download = "Alishba_Cv_Portfolio.pdf";
     link.href = alishbaCV;
     document.body.appendChild(link);
     link.click();
